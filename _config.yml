@@ -20,7 +20,7 @@ url:                   https://devyzz.github.io
 lang:                  ko-KR
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 DevLog 🐰 <br>개발꾸러미
+title:                 DevLog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Data Engineer
 
 # A list of keywords for your blog
 keywords:              []
@@ -49,25 +49,43 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Diary
+    url:               /diary/
+  - title:             Data
+    url:               /data/
+    submenu:
+      - title:             Data Engineering
+        url:               /DataEngineering/
+      - title:             Data Science
+        url:               /DataScience/
+  - title:             Development
+    url:               /development/
+    submenu:           
+      - title:  Java
+        url:    /java/    
+      - title:  Pythong
+        url:    /python/
+      - title:  Spring
+        url:    /spring/
+  - title:             Algorithm
+    url:               /algorithm/
+  - title:             ETC
+    url:               /etc/
   - title:             About
     url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  # - title:             LICENSE
+  #   url:               /LICENSE/
+  # - title:             NOTICE
+  #   url:               /NOTICE/
+  # - title:             CHANGELOG
+  #   url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2024. All rights reserved.
+copyright:             © 2025. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -93,7 +111,7 @@ theme: jekyll-theme-hydejack
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(32,178,170)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -147,11 +165,11 @@ defaults:
       layout:          plain
       sitemap:         false
 
-  # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  # You can use the following to enable comments on all posts.
+  - scope:
+      type:            posts
+    values:
+      comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:

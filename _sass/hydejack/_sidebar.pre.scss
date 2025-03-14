@@ -190,6 +190,7 @@ hy-drawer.loaded .sidebar {
 .sidebar-nav-item {
   @extend .f4;
   display: inline-block;
+  width: max-content;
   margin-bottom: .5rem;
 }
 

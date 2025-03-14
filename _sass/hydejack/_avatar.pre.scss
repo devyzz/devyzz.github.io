@@ -15,9 +15,9 @@
 
 .avatar {
   // <<< inline
-  width: 7rem;
-  height: 7rem;
-  border-radius: 100%;
+  width: 9rem;
+  height: 9rem;
+  // border-radius: 100%;
   overflow: hidden;
   display: inline-block;
   // >>>
@@ -37,6 +37,7 @@
   @extend .color-transition;
   float: right;
   box-sizing: content-box;
+  border-radius: 100%;
   border: 1rem solid var(--body-bg);
   transition: border-color 1s ease;
   margin-top: -1.5rem;

@@ -20,8 +20,8 @@ code, pre {
 
 code {
   @extend .color-transition;
-  padding: .25em .5em;
-  background-color: var(--gray-bg);
+  padding: .25em .3em;
+  background-color: rgba(247,163,17,0.5);
   font-size: smaller;
 }
 
