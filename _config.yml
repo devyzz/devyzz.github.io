@@ -71,6 +71,8 @@ menu:
     url:               /algorithm/
   - title:             ETC
     url:               /etc/
+  - title:             이어드림스쿨
+    url:               /ydschool/
   - title:             About
     url:               /about/
 
@@ -111,7 +113,8 @@ theme: jekyll-theme-hydejack
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(32,178,170)
+# accent_color:          rgb(32,178,170)
+accent_color:          rgb(64,142,126)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.

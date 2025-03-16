@@ -183,10 +183,16 @@ abbr {
 
 blockquote {
   @extend .color-transition;
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: var(--gray);
-  border-left: .25rem solid var(--border-color);
+  // padding: .5rem 1rem;
+  // margin: .8rem 0;
+  // color: var(--gray);
+  // border-left: .25rem solid var(--border-color);
+
+  margin: 1.5em 1em 1.5em 0em;
+  padding: 0.4em 0.5em 0.4em 1em;
+  background-color: rgba(247,163,17,0.2);
+  border-top: 0.2em solid rgba(247,163,17,0.3);
+  border-bottom: 0.2em solid rgba(247,163,17,0.3);
 
   &.lead {
     font-size: 1.2em;

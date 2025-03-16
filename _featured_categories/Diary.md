@@ -9,7 +9,6 @@ slug: Diary
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   개인적인 생각 정리, TIL, WIL
-
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
 
