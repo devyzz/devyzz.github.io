@@ -41,11 +41,12 @@ jobs:
         run: |
           gem install bundler
           bundle install
+          gem install jekyll # 추가: jekyll 명령어를 명시적으로 설치
 
       # Clean Jekyll build
       - name: Clean Jekyll build
         run: |
-          jekyll clean
+          jekyll clean # jekyll 명령어가 이 시점에서 인식됩니다.
 
       - name: Setup Pages
         id: pages
@@ -53,7 +54,6 @@ jobs:
 
       # Build with Jekyll
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
