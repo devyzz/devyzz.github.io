@@ -14,7 +14,7 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 hy-push-state a {
-  color: var(--body-color); // inline
+  color: var(--body-color); // inlines
   text-decoration: none; 
 
   // <<< inline
@@ -24,6 +24,7 @@ hy-push-state a {
   }
 
   @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+    // text-decoration-style: solid;
     text-decoration: none; 
     text-underline-offset: .35rem;
     text-decoration-thickness: 2px;
