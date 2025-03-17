@@ -46,7 +46,7 @@ jobs:
       # Clean Jekyll build
       - name: Clean Jekyll build
         run: |
-          jekyll clean # jekyll 명령어가 이 시점에서 인식됩니다.
+          bundle exec jekyll clean # bundle exec 추가
 
       - name: Setup Pages
         id: pages
@@ -54,7 +54,8 @@ jobs:
 
       # Build with Jekyll
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: |
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" # bundle exec 추가
         env:
           JEKYLL_ENV: production
 
