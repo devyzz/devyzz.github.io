@@ -5,10 +5,10 @@ type: category
 # The title of the tag's page.
 title: Data Engineering
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: [data,data engineering]
+slug: data engineering
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Data Science와 관련된 내용 정리
+  Data Engineering 관련된 내용 정리
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

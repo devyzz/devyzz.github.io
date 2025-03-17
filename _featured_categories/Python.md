@@ -5,7 +5,7 @@ type: category
 # The title of the tag's page.
 title: Python
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: [Development,Python]
+slug: python
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   Python관련 지식 정리

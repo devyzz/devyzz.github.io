@@ -5,7 +5,7 @@ type: category
 # The title of the tag's page.
 title: Data
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: [data]
+slug: data
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   Data와 관련된 내용 정리

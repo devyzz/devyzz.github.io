@@ -20,7 +20,7 @@ url:                   https://devyzz.github.io
 lang:                  ko-KR
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 DevLog
+title:                 Grow with Time
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Data Engineer
+tagline:               끊임없이 의심하고<br>끊임없이 노력하기
 
 # A list of keywords for your blog
 keywords:              []
@@ -49,30 +49,41 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Diary
-    url:               /diary/
+  - title:             이어드림스쿨
+    url:               /ydschool/
+  # - title:             Diary
+  #   url:               /diary/
   - title:             Data
     url:               /data/
-    submenu:
-      - title:             Data Engineering
-        url:               /DataEngineering/
-      - title:             Data Science
-        url:               /DataScience/
+  - title:             Data Engineering
+    url:               /DataEngineering/
+    # submenu:
+    #   - title:             Data Engineering
+    #     url:               /DataEngineering/
+    #   - title:             Data Science
+    #     url:               /DataScience/
   - title:             Development
     url:               /development/
     submenu:           
       - title:  Java
         url:    /java/    
-      - title:  Pythong
+      - title:  Python
         url:    /python/
       - title:  Spring
         url:    /spring/
   - title:             Algorithm
     url:               /algorithm/
-  - title:             ETC
-    url:               /etc/
-  - title:             이어드림스쿨
-    url:               /ydschool/
+  - title:             Reveiw
+    url:               /review/
+    submenu:           
+      - title:  Book
+        url:    /book/    
+      - title:  Paper
+        url:    /paper/
+      - title:  Tech
+        url:    /tech/
+  # - title:             ETC
+  #   url:               /etc/
   - title:             About
     url:               /about/
 

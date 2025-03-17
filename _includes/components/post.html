@@ -4,13 +4,13 @@
 {% assign hide_image       = include.hide_image       %}
 {% assign hide_description = include.hide_description %}
 
-<article id="post{{ post.id | replace:'/','-' }}" class="page post mb6" role="article">
+<article id="post{{ post.id | replace:'/','-' }}" class="page post mb4" role="article">
   <header>
-    <h1 class="post-title flip-project-title">
+    <h2 class="post-title flip-project-title">
       {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="flip-title">{% endunless %}
         {{ post.title }}
       {% unless no_link_title %}</a>{% endunless %}
-    </h1>
+    </h2>
 
     <div class="post-date">
       {% capture foobar %}

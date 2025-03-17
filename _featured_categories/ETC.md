@@ -5,7 +5,7 @@ type: category
 # The title of the tag's page.
 title: ETC
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: ETC
+slug: etc
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   기타 정보
