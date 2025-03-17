@@ -56,7 +56,7 @@ menu:
   - title:             Data
     url:               /data/
   - title:             Data Engineering
-    url:               /dataEngineering/
+    url:               /de/
     # submenu:
     #   - title:             Data Engineering
     #     url:               /DataEngineering/
