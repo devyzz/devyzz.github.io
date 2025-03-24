@@ -76,6 +76,9 @@ menu:
     url:               /cse/
   - title:             Algorithm
     url:               /algorithm/
+    submenu:
+      - title:             Challenges
+        url:               /challenges/
   - title:             Reveiw
     url:               /review/
     submenu:           

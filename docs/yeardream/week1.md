@@ -4,7 +4,7 @@ title: Week 1 (03/17 - 03/21)
 description: >
   Learn computer architecture, operating systems, and network basics
 hide_description: false
-sitemap: false
+sitemap: true
 ---
 
 * toc
