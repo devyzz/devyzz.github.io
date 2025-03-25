@@ -1,9 +1,9 @@
 ---
 layout: list
 type: tag
-title: TIL
-slug: TIL
+title: 책리뷰
+slug: book
 description: >
-  Today I Learned
+  독서태그
 sitemap: false
 ---

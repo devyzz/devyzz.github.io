@@ -1,8 +1,8 @@
 ---
 layout: list
 type: tag
-title: TIL
-slug: TIL
+title: 논문
+slug: paper
 description: >
   Today I Learned
 sitemap: false
