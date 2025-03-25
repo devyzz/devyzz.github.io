@@ -11,7 +11,7 @@ sitemap: true
 {:toc .large-only}
 ## 24 March | Mon 🙂
 
-‣ [파이썬 함수정리](/development/python/2025-03-24-python-00함수/) <br>‣ [파이썬 코테연습](https://github.com/devyzz/Baekjoon_Python/tree/main/Bronze) ~<br>
+‣ [파이썬 함수정리](/development/python/2025-03-24-python-01함수/) <br>‣ [파이썬 코테연습](https://github.com/devyzz/Baekjoon_Python/tree/main/Bronze) ~<br>
 {:.note title="Today I Learned 📚"}
 
 본격적인 파이썬 시작. 뭔가 빠르게 진도를 나가고 빠르게 개념을 확립하려고 이것저것 했지만 그다지 빠르지도 않은 것 같다. 정도를 걷자. 파이썬 코딩테스트 문제를 처음으로 풀어보았는데 확실히 Java에 비해 말도안되게 쉽다는 걸 느꼈다. 편리하게 구조화 되어있는 함수도 많았고, 함수를 사용하는 문법 역시 복잡하지 않고 머릿속에 떠오르는 느낌과 거의 유사해서 왜 파이썬이 인간친화적인 언어라고 하는지 확실히 깨달았다. Java를 사용하더라도 코테는 파이썬으로 공부하라던 수많은 주변지인의 말들이 떠올랐는데 왜 그걸 무시해왔을까... 하지만 풀면서 느끼는 건 자바를 별도로 공부하지 않으면 다 까먹을 것 같다는 것이다. 사실 지금도 많이 까먹었지만 시간을 조금씩 만들어서라도 python코테와 java코테를 병행할 수 있도록 해야 할 것 같다. 
@@ -20,7 +20,7 @@ sitemap: true
 
 ## 25 March | Tue 🙂
 
-‣ [파이썬 함수정리](/development/python/2025-03-24-python-00함수/) <br>‣ [파이썬 코테연습](https://github.com/devyzz/Baekjoon_Python/tree/main/Bronze) ~<br>‣ 빅데이터를 지탱하는 기술 독서 ~
+‣ [파이썬 함수정리](/development/python/2025-03-24-python-01함수/) <br>‣ [파이썬 코테연습](https://github.com/devyzz/Baekjoon_Python/tree/main/Bronze) ~<br>‣ 빅데이터를 지탱하는 기술 독서 ~
 {:.note title="Today I Learned 📚"}
 
 코딩테스트 문해력에 진짜 문제가있다고 느끼는 하루. 
