@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Week 2 (03/31 - 04/04)
+title: Week 3 (03/31 - 04/04)
 description: >
   Advanced Python/Data Structures
 hide_description: false
