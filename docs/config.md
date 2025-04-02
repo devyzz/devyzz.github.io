@@ -386,7 +386,7 @@ Enabling Google Analytics is as simple as setting the `google_analytics` key.
 
 ~~~yml
 # file: `_config.yml`
-google_analytics: UA-XXXXXXXX-X
+google_analytics: G-LKJWTW19DF
 ~~~
 
 To remove Google Analytics and all associated code from the site, set the `google_analytics` key to `false`.
