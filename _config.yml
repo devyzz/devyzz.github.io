@@ -65,7 +65,7 @@ menu:
     submenu:
       - title: Programming
         url: /programming/
-      - title: CS Basics
+      - title: CS
         url: /cs/
       - title: DataStructures/Algorithm
         url: /dsa/
