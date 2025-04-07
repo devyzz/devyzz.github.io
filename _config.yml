@@ -60,7 +60,7 @@ menu:
       - title: Courses
         url: /courses/
 
-  - title: DevNotes
+  - title: Dev Archive
     url: /devnotes/
     submenu:
       - title: Programming
