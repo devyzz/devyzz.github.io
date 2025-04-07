@@ -48,50 +48,51 @@ author:
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
+
+
 # Add links to the sidebar.
 menu:
-  - title:             이어드림스쿨
-    url:               /ydschool/
-  # - title:             Diary
-  #   url:               /diary/
-  - title:             Data
-    url:               /data/
-  - title:             Data Engineering
-    url:               /de/
-    # submenu:
-    #   - title:             Data Engineering
-    #     url:               /DataEngineering/
-    #   - title:             Data Science
-    #     url:               /DataScience/
-  - title:             Development
-    url:               /development/
-    submenu:           
-      - title:  Java
-        url:    /java/    
-      - title:  Python
-        url:    /python/
-      - title:  Spring
-        url:    /spring/
-  - title:             CSE
-    url:               /cse/
-  - title:             Algorithm
-    url:               /algorithm/
+  - title: Learning Log
+    url: /learning/
     submenu:
-      - title:             Challenges
-        url:               /challenges/
-  - title:             Reveiw
-    url:               /review/
-    submenu:           
-      - title:  Book
-        url:    /book/    
-      - title:  Paper
-        url:    /paper/
-      - title:  Tech
-        url:    /tech/
-  # - title:             ETC
-  #   url:               /etc/
-  - title:             About
-    url:               /about/
+      - title: TIL & WIL
+        url: /logs/
+      - title: Courses
+        url: /courses/
+
+  - title: DevNotes
+    url: /devnotes/
+    submenu:
+      - title: Programming
+        url: /programming/
+      - title: CS Basics
+        url: /cs/
+      - title: DataStructures/Algorithm
+        url: /dsa/
+      - title: Coding Tests
+        url: /coding-tests/
+
+  - title: Data Engineering
+    url: /data/
+    submenu:
+      - title: Concepts
+        url: /concepts/
+      - title: Projects
+        url: /projects/
+      - title: Tools
+        url: /tools/
+
+  - title: Review
+    url: /review/
+    submenu:
+      - title: Books & Papers
+        url: /books-papers/
+      - title: Tech Insights
+        url: /tech/
+
+  - title: About
+    url: /about/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -131,8 +132,7 @@ theme: jekyll-theme-hydejack
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-# accent_color:          rgb(32,178,170)
-accent_color:          rgb(64,142,126)
+accent_color:          rgb(72, 120, 110)		
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
