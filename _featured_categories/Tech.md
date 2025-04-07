@@ -1,19 +1,9 @@
 ---
-# Featured tags need to have either the `list` or `grid` layout (PRO only).
 layout: list
 type: category
-# The title of the tag's page.
-title: 기술블로그/리뷰
-# The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: tech
-# (Optional) Write a short (~150 characters) description of this featured tag.
+title: Tech Insights	
+slug: techs
 description: >
-  기술블로그 리뷰
-
-# (Optional) You can disable grouping posts by date.
-# no_groups: true
-
-# Exclude this example category from the sitemap.
-# DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: false
+ 기술 관련 인사이트나 트렌드에 대한 개인적인 생각을 기록합니다.
+sitemap: true
 ---

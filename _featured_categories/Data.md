@@ -1,19 +1,9 @@
 ---
-# Featured tags need to have either the `list` or `grid` layout (PRO only).
 layout: list
 type: category
-# The title of the tag's page.
-title: Data
-# The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
+title: Data Engineering
 slug: data
-# (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Data와 관련된 내용 정리
-
-# (Optional) You can disable grouping posts by date.
-# no_groups: true
-
-# Exclude this example category from the sitemap.
-# DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: false
+ 데이터 엔지니어가 되기 위한 기술과 프로젝트를 정리한 공간입니다. 이론, 실습, 도구 활용 등을 다룹니다.
+sitemap: true
 ---
