@@ -25,6 +25,10 @@ code {
   font-size: smaller;
 }
 
+mark {
+  background-color: rgba(238,210,255, 0.8);
+}
+
 .figure-base {
   @extend .color-transition;
   margin-left: -1rem;
