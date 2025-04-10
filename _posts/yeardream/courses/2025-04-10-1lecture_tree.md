@@ -370,7 +370,7 @@ def getWidth(myTree):
        return (ansDepth, ansWidth)
    ```
 
-   ### **동작 흐름**
+   **동작 흐름**
 
    1. `result = inorder(myTree, 1)`
        → 중위 순회를 통해 트리의 노드를 방문하면서, 각 노드의 깊이 정보를 포함한 리스트를 생성한다.
