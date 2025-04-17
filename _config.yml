@@ -52,11 +52,11 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title: Today I Learneds 🐤 
+    url: /logs/
   - title: Learning Log
     url: /learning/
     submenu:
-      - title: TIL & WIL
-        url: /logs/
       - title: Courses
         url: /courses/
 
