@@ -73,14 +73,23 @@ menu:
         url: /coding-tests/
 
   - title: Data Engineering
-    url: /data/
+    url: /datae/
     submenu:
       - title: Concepts
-        url: /concepts/
-      - title: Projects
-        url: /projects/
+        url: /de_concepts/
       - title: Tools
-        url: /tools/
+        url: /de_tools/
+  
+  - title: Data Analysis
+    url: /dataa/
+    submenu:
+      - title: Concepts
+        url: /da_concepts/
+      - title: Tools
+        url: /da_tools/
+  
+  - title: Projects 
+    url: /projects/
 
   - title: Review
     url: /review/
