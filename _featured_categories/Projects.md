@@ -4,6 +4,6 @@ type: category
 title: Projects
 slug: projects
 description: >
- 직접 진행한 데이터 관련 프로젝트들을 기록합니다.
+  Portfolio of personal or collaborative projects with detailed architecture, <br>objectives, progress, and takeaways.
 sitemap: true
 ---

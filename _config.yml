@@ -30,7 +30,7 @@ description:           >
   Work Hard to be DE.
   
 # A shorter description for the sidebar.
-tagline:               끊임없이 의심하고<br>끊임없이 노력하기
+tagline:               I only post what I’ve personally worked through.
 
 # A list of keywords for your blog
 keywords:              []
@@ -48,59 +48,119 @@ author:
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
-
-
-# Add links to the sidebar.
 menu:
-  - title: Today I Learneds 🐤 
-    url: /logs/
-  - title: Learning Log
-    url: /learning/
+  - title: "Diary"
+    url: /diary/
     submenu:
-      - title: Courses
-        url: /courses/
+      - title: "Career"
+        url: /career/
+      - title: "Learning"
+        url: /learning/
 
-  - title: Dev Archive
-    url: /devnotes/
+  - title: "Programming"
+    url: /programming/
     submenu:
-      - title: Programming
-        url: /programming/
-      - title: CS
-        url: /cs/
-      - title: DataStructures/Algorithm
-        url: /dsa/
-      - title: Coding Tests
-        url: /coding-tests/
+      - title: "Languages"
+        url: /languages/
+      - title: "Algorithms"
+        url: /algorithms/
 
-  - title: Data Engineering
-    url: /datae/
+  - title: "Engineering"
+    url: /engineering/
     submenu:
-      - title: Concepts
-        url: /de_concepts/
-      - title: Tools
-        url: /de_tools/
-  
-  - title: Data Analysis
-    url: /dataa/
+      - title: "Local Development"
+        url: /local-development/
+      - title: "Orchestration"
+        url: /orchestration/
+      - title: "Streaming & Queues"
+        url: /streaming-and-queues/
+      - title: "Deployment"
+        url: /deployment/
+
+  - title: "Modeling"
+    url: /modeling/
     submenu:
-      - title: Concepts
-        url: /da_concepts/
-      - title: Tools
-        url: /da_tools/
-  
-  - title: Projects 
+    - title: "Machine Learning"
+      url: /machine-learning/
+    - title: "Deep Learning"
+      url: /deep-learning/
+
+  - title: "Projects"
     url: /projects/
-
-  - title: Review
-    url: /review/
     submenu:
-      - title: Books & Papers
-        url: /books-papers/
-      - title: Tech Insights
-        url: /tech/
+      - title: "Workflows"
+        url: /workflows/
+      - title: "Progress"
+        url: /progress/
+      - title: "Failures"
+        url: /failures/
+      - title: "Troubleshooting"
+        url: /troubleshooting/
+  
+  - title: "Reviews"
+    url: /reviews/
+    submenu:
+      - title: "Papers"
+        url: /papers/
+      - title: "Technologies"
+        url: /technologies/
+      - title: "Books"
+        url: /books/
 
   - title: About
-    url: /about/
+    url: /about/      
+
+# # Add links to the sidebar.
+# menu:
+#   - title: Today I Learneds 🐤 
+#     url: /logs/
+#   - title: Learning Log
+#     url: /learning/
+#     submenu:
+#       - title: Courses
+#         url: /courses/
+
+#   - title: Dev Archive
+#     url: /devnotes/
+#     submenu:
+#       - title: Programming
+#         url: /programming/
+#       - title: CS
+#         url: /cs/
+#       - title: DataStructures/Algorithm
+#         url: /dsa/
+#       - title: Coding Tests
+#         url: /coding-tests/
+
+#   - title: Data Engineering
+#     url: /datae/
+#     submenu:
+#       - title: Concepts
+#         url: /de_concepts/
+#       - title: Tools
+#         url: /de_tools/
+  
+#   - title: Data Analysis
+#     url: /dataa/
+#     submenu:
+#       - title: Concepts
+#         url: /da_concepts/
+#       - title: Tools
+#         url: /da_tools/
+  
+#   - title: Projects 
+#     url: /projects/
+
+#   - title: Review
+#     url: /review/
+#     submenu:
+#       - title: Books & Papers
+#         url: /books-papers/
+#       - title: Tech Insights
+#         url: /tech/
+
+#   - title: About
+#     url: /about/
 
 
 # Add links to the footer.
