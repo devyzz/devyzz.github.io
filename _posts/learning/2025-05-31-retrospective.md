@@ -7,6 +7,7 @@ categories:
 excerpt_separator: <!--more-->
 hide_last_modified: true
 sitemap: true
+image: /assets/img/calendar/may.png 
 ---
 
 5월은 데이터 분야 학습이 본격적으로 시작된 시기이자 공모전 프로젝트와 코딩테스트를 병행하며 체력과 집중력을 극한까지 끌어올려야 했던 한 달이었다. 과정은 분명 고됐지만, 직접 움직이며 결과를 만들어낸 경험 덕분에 피로감보다는 성취감과 자신감이 더 크게 남은 시간이었다.

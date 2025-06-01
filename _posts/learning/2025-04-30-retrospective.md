@@ -7,6 +7,7 @@ categories:
 excerpt_separator: <!--more-->
 hide_last_modified: true
 sitemap: true
+image: /assets/img/calendar/april.png 
 ---
 
 4월은 처음으로 평가 일정이 생긴 달이었다. 

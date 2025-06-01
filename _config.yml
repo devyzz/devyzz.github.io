@@ -30,7 +30,7 @@ description:           >
   Work Hard to be DE.
   
 # A shorter description for the sidebar.
-tagline:               I only post what I’ve personally worked through.
+tagline:               I only post <br> what I’ve personally worked through.
 
 # A list of keywords for your blog
 keywords:              []
@@ -49,6 +49,12 @@ author:
   # twitter:             <username>
 
 menu:
+  - title: About
+    url: /about/     
+
+  - title: "Projects"
+    url: /projects/
+
   - title: "Diary"
     url: /diary/
     submenu:
@@ -85,18 +91,6 @@ menu:
     - title: "Deep Learning"
       url: /deep-learning/
 
-  - title: "Projects"
-    url: /projects/
-    submenu:
-      - title: "Workflows"
-        url: /workflows/
-      - title: "Progress"
-        url: /progress/
-      - title: "Failures"
-        url: /failures/
-      - title: "Troubleshooting"
-        url: /troubleshooting/
-  
   - title: "Reviews"
     url: /reviews/
     submenu:
@@ -107,60 +101,7 @@ menu:
       - title: "Books"
         url: /books/
 
-  - title: About
-    url: /about/      
-
-# # Add links to the sidebar.
-# menu:
-#   - title: Today I Learneds 🐤 
-#     url: /logs/
-#   - title: Learning Log
-#     url: /learning/
-#     submenu:
-#       - title: Courses
-#         url: /courses/
-
-#   - title: Dev Archive
-#     url: /devnotes/
-#     submenu:
-#       - title: Programming
-#         url: /programming/
-#       - title: CS
-#         url: /cs/
-#       - title: DataStructures/Algorithm
-#         url: /dsa/
-#       - title: Coding Tests
-#         url: /coding-tests/
-
-#   - title: Data Engineering
-#     url: /datae/
-#     submenu:
-#       - title: Concepts
-#         url: /de_concepts/
-#       - title: Tools
-#         url: /de_tools/
-  
-#   - title: Data Analysis
-#     url: /dataa/
-#     submenu:
-#       - title: Concepts
-#         url: /da_concepts/
-#       - title: Tools
-#         url: /da_tools/
-  
-#   - title: Projects 
-#     url: /projects/
-
-#   - title: Review
-#     url: /review/
-#     submenu:
-#       - title: Books & Papers
-#         url: /books-papers/
-#       - title: Tech Insights
-#         url: /tech/
-
-#   - title: About
-#     url: /about/
+ 
 
 
 # Add links to the footer.
@@ -202,6 +143,7 @@ theme: jekyll-theme-hydejack
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(72, 120, 110)		
+# accent_color:          rgb(83, 158, 242)		
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.

@@ -7,6 +7,7 @@ categories:
 excerpt_separator: <!--more-->
 hide_last_modified: true
 sitemap: true
+image: /assets/img/calendar/march.png 
 ---
 
 3월은 새로운 분야를 시작한 만큼 한 달 내내 마음 잡기가 최우선인 과제였던 것 같다.<br>
